@@ -1,26 +1,18 @@
-# Ignorar pastas com dados
-data/raw/*    
-data/processed/*
+# Ignorar a pasta de vídeos
+data/
 
-# Ignorar arquivos temporários do Python
-*.pyc
-*.pyo
+# Ignorar dados processados
+grupo2/data_preparation/data_processed/
+
+# Ficheiros gerados por Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 
-# Ignorar ambientes virtuais
-venv/
-.env/
-
-# Ignorar arquivos de configuração específicos de IDEs
-.vscode/
-.idea/
-
-# Ignorar arquivos de log
-*.log
-
-# Ignorar arquivos do Jupyter Notebook
-*.ipynb_checkpoints/
-
-# Ignorar arquivos do sistema
-.DS_Store   # Para sistemas macOS
-Thumbs.db   # Para sistemas Windows
+# Modelos e dados grandes
+*.pth
+*.pt
+*.npz
+*.npy
+*.h5
