@@ -15,8 +15,7 @@ Este repositório contém toda a pipeline com propostas de solução para as tar
     │ │ ├── data_analysis.ipynb # Análise dos dados 
     │ │ └── preparation.ipynb # Preparação desenvolvida
     │ │
-    │ ├── report/ # Relatório final e referências
-    │ │ ├── url1.pdf ... url5.pdf
+    │ ├── report/ # Relatório final
     │ │ └── relatorio.pdf
     │ │
     │ ├── task1/ # Tarefa 1 – Previsão de GRS
